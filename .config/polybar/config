@@ -167,10 +167,15 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-label-focused = 
-label-unfocused = 龜
-label-visible = 龜
-label-urgent = 
+;label-focused = 
+;label-unfocused = 龜
+;label-visible = 龜
+;label-urgent = 
+
+label-focused = %name%
+label-unfocused = %name%
+label-visible = %name%
+label-urgent = %name%
 
 label-mode-padding = 4
 label-mode-foreground = #000
